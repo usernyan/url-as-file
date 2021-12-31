@@ -7,7 +7,9 @@ A Python program for encoding urls using filename-valid (Win/Mac/Lin) characters
 This program was written to allow saving images from the web with their source url in the filename, so one can see their origin at a glance and visit it.
 
 ## Interactive Program
-Run `url_as_file_interactive.py` and follow the prompts to encode or decode text in your terminal.
+First, install python ([python.org](https://www.python.org/))
+
+Next, run `url_as_file_interactive.py` and follow the prompts to encode or decode text in your terminal.
 
 ## Usage (For Programmers)
 Import url_as_file and codecs to start decoding and encoding strings in python:
