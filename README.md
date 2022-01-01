@@ -1,9 +1,7 @@
 # url-as-file
-
 A Python program for encoding urls using filename-valid (Win/Mac/Lin) characters in a human-readable way.
 
 ## Purpose
-
 This program was written to allow saving images from the web with their source url in the filename, so one can see their origin at a glance and visit it.
 
 ## Interactive Program
