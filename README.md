@@ -9,6 +9,9 @@ First, install python ([python.org](https://www.python.org/))
 
 Next, run `url_as_file_interactive.py` and follow the prompts to encode or decode text in your terminal.
 
+## Command-line Interface
+Run `python url_as_file_cmd.py -h` in your terminal for help.
+
 ## Usage (For Programmers)
 Import url_as_file and codecs to start decoding and encoding strings in python:
 
