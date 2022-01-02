@@ -30,4 +30,4 @@ elif args.file:
     with open(args.file, 'r', encoding='utf-8') as user_file:
         instream_parse(user_file, args.decode)
 else:
-    instream_parse(io.StringIO(args.url), args.decode) 
+    instream_parse(io.StringIO(args.url), args.decode)

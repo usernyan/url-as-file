@@ -4,7 +4,7 @@ from typing import Tuple
 
 escape_char = "!"
 _encode_table = {
-    escape_char:  escape_char,
+    escape_char: escape_char,
     #replace illegal chars
     "\\": "{",
     "/":  "}",
