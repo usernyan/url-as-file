@@ -6,7 +6,9 @@ import codecs
 import io
 import sys
 
-parser = argparse.ArgumentParser(description="encode or decode urls to valid filenames")
+parser = argparse.ArgumentParser(
+    description="encode or decode urls to valid filenames",
+    epilog="Usage Example: python url_as_file_cmd.py 'http://example.com/'")
 parser.add_argument('-d', '--decode', action='store_true', help="use decode mode instead of encode mode")
 parser.add_argument('url', type=str, default="", nargs="?",
                     help='the url to encode/decode. (default value is the empty string. put this inside single quotes to avoid the shell parsing its contents).')
