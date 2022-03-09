@@ -4,7 +4,7 @@ A Python program for encoding urls using filename-valid (Win/Mac/Lin) characters
 ## Purpose
 This program was written to allow saving images from the web with their source url in the filename.
 
-It replaces unwanted characters (```\/<>:*?"|.```) with filename-valid ones (```{}[];+`'~,```). These replacement characters are encoded with an escape character (```!```) before it. That is, the text ```Square Brackets: {}``` becomes ```Square Brackets; !{!}```
+It replaces unwanted characters (```\/<>:*?"|.```) with filename-valid ones (```{}[];+`'~,```). These replacement characters are encoded with an escape character (```!```) before it. That is, the text ```Sharp and Curly: <> {} ;``` becomes ```Sharp and Curly; [] !{!} !;```
 
 ## Interactive Program
 First, install python ([python.org](https://www.python.org/))
