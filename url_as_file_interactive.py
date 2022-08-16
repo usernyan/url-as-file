@@ -1,3 +1,4 @@
+#!/bin/python
 import url_as_file #adds url-as-file to codecs
 import codecs
 

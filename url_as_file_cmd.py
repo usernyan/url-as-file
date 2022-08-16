@@ -1,3 +1,4 @@
+#!/bin/python
 import argparse
 #for encoding/decoding
 import url_as_file
